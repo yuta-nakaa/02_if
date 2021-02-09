@@ -1,11 +1,12 @@
 <?php
 
 $a = 2;
-$b = 2;
+$b = 4;
 
 if ($a > $b ) {
     echo $a . ' ';
-}
-if ($a === $b) {
+}elseif ($b > $a) {
+    echo $b . ' ';
+}else {
     echo '入力された値は等しいです' ;
 }
